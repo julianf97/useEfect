@@ -1,0 +1,38 @@
+.contenedor-general{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .contenedor-sumador{
+        width: 400px;
+        height: 200px;
+        background-color: rgb(241, 239, 219);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .contenedor-masmenos{
+            width: 80%;
+            height: 20%;
+            border: solid 1px rgba(0, 0, 0, 0.5);
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            .caja{
+                width: 30px;
+                height: 100%;
+                font-size: 2rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                user-select: none;
+            }
+            .menos{
+                cursor: pointer;
+            }
+            .mas{
+                cursor: pointer;
+            }
+        }
+    }
+}
